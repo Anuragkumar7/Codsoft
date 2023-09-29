@@ -1,0 +1,207 @@
+ body {
+     margin: 0;
+ }
+
+ .navbar {
+     display: flex;
+     list-style-type: none;
+     margin: 10px;
+     padding: 10px;
+     text-align: right;
+ }
+ .navbar li:hover{
+    color: #EF1171;
+    transform: scale(1.1);
+ }
+
+ h3 {
+     text-decoration: underline;
+     font-size: 25px;
+ }
+
+ li {
+     padding: 20px;
+     font-size: 25px;
+     cursor: pointer;
+     font-weight: 600;
+ }
+
+ .home {
+     margin-left: 700px;
+ }
+
+ .logo {
+     padding-left: 20px;
+ }
+
+ button {
+     padding: 10px 35px;
+     background-color: #EF1171;
+     color: #fff;
+     font-size: 20px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .hometext span {
+     color: #EF1171;
+ }
+
+ .rect {
+     position: relative;
+     width: 400px;
+     height: 650px;
+     bottom: 450px;
+     right: 100px;
+     background-color: #EF1171;
+     transform: rotate(60deg);
+     border-radius: 40px;
+     z-index: -1;
+ }
+
+ .tringal {
+     position: relative;
+     bottom: 870px;
+     left: 577px;
+     width: 0;
+     height: 0;
+     border-radius: 20px;
+     border-left: 600px solid transparent;
+     border-right: 600px solid transparent;
+     border-bottom: 684px solid #cbf125;
+     transform: rotate(-90deg);
+     margin-bottom: 0;
+     z-index: -1;
+ }
+
+ .hometext {
+     position: relative;
+     bottom: 500px;
+     padding-left: 100px;
+ }
+
+ .pera {
+     position: relative;
+     bottom: 500px;
+     padding-left: 100px;
+ }
+
+ .services {
+     bottom: 900px;
+     position: relative;
+     padding: 0;
+     height: 500px;
+     width: 100%;
+     background-color: #ffffff;
+     z-index: -1;
+ }
+
+ .allservices {
+     position: absolute;
+     top: 700px;
+
+ }
+
+ .card {
+     width: 295px;
+     height: 250px;
+     background-color: #cbf125;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     padding: 20px;
+     margin: 20px;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     display: inline-block;
+ }
+
+ .card h2 {
+     color: #000000;
+ }
+
+ .card p {
+     padding-top: 20px;
+     color: #ffffff;
+ }
+
+ #card2 {
+     background-color: #EF1171;
+ }
+
+ /* About Page */
+
+
+ .aboutText {
+     position: absolute;
+     top: 1150px;
+     right: 0;
+     left: 0;
+     text-align: center;
+ }
+ .image img{
+    position: absolute;
+    top: 1250px;
+    width: 35%;
+    padding: 20px;
+ }
+ .contained p{
+    position: absolute ;
+    top: 1350px;
+    margin-left: 530px;
+    padding: 0 50px;
+
+ }
+ .sociallinks{
+    position: relative;
+     bottom: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    transition: 1s;
+ }
+ .sociallinks h1{
+    padding-bottom: 50px;
+ }
+ .joinus{
+    display: flex;
+    padding: 10px 20px 30px;
+    margin: 0 20px;
+    transition: 2s;
+
+ }
+ .youtube:hover{
+    transform: scale(1.5);
+ }
+.social
+{
+    position :relative;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0;
+    margin: auto;
+}
+ .footer{
+    position: relative;
+    bottom: 00px;
+    margin: auto;
+    max-width: 150%;
+    display: flex;
+    padding: 30px 60px;
+    background-color: #9d9d9d;
+ }
+ 
+ .footlink li
+ {
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    letter-spacing: 0.00rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+}
+
+.footicon{
+    color: #EF1171;
+}
